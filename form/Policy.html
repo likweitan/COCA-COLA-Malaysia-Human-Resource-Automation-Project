@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+         <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+         <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="../index.html">Concept</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-3.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">
+John Abraham</span>is now following you
+                                                        <div class="notification-date">2 days ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-4.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-5.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/github.png" alt="" > <span>Github</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/dribbble.png" alt="" > <span>Dribbble</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/dropbox.png" alt="" > <span>Dropbox</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/bitbucket.png" alt=""> <span>Bitbucket</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/mail_chimp.png" alt="" ><span>Mail chimp</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/slack.png" alt="" > <span>Slack</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">More</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">
+John Abraham</h5>
+                                    <span class="status"></span><span class="ml-2">Available</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+      <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Job Application Form<span class="badge badge-success">6</span></a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">                                       
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-finance.html">Personal Details</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Bank Account Details</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Family / Dependent Details</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Education Details</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Employment Record</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Further Information</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">References</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Declaration</a>
+                                        </li>                                      
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-fw fa-rocket"></i>UI Elements</a>
+                                <div id="submenu-2" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cards.html">Cards <span class="badge badge-secondary">New</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="general.html">General</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="carousel.html">Carousel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="listgroup.html">List Group</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="typography.html">Typography</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="accordions.html">Accordions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="tabs.html">Tabs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Chart</a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-c3.html">C3 Charts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-chartist.html">Chartist Charts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-charts.html">Chart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-morris.html">Morris</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-sparkline.html">Sparkline</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-gauge.html">Guage</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>Forms</a>
+                                <div id="submenu-4" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="form-elements.html">Form Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="form-validation.html">Parsely Validations</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="multiselect.html">Multiselect</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Tables</a>
+                                <div id="submenu-5" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="general-table.html">General Tables</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="data-tables.html">Data Tables</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-divider">
+                                Features
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-fw fa-file"></i>Pages</a>
+                                <div id="submenu-6" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">Invoice</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blank-page.html">Blank Page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blank-page-header.html">Blank Page Header</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">Login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="404-page.html">404 page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sign-up.html">Sign up Page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pricing.html">Pricing Tables</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="timeline.html">Timeline</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="calendar.html">Calendar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sortable-nestable-lists.html">Sortable/Nestable List</a>
+                                        </li>
+                                       <li class="nav-item">
+                                            <a class="nav-link" href="widgets.html">Widgets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="media-object.html">Media Objects</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cropper-image.html">Cropper</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="color-picker.html">Color Picker</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Apps <span class="badge badge-secondary">New</span></a>
+                                <div id="submenu-7" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="inbox.html">Inbox</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="email-details.html">Email Detail</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="email-compose.html">Email Compose</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="message-chat.html">Message Chat</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-columns"></i>Icons</a>
+                                <div id="submenu-8" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-fontawesome.html">FontAwesome Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-material.html">Material Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-simple-lineicon.html">Simpleline Icon</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-themify.html">Themify Icon</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-flag.html">Flag Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-weather.html">Weather Icon</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-9" aria-controls="submenu-9"><i class="fas fa-fw fa-map-marker-alt"></i>Maps</a>
+                                <div id="submenu-9" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="map-google.html">Google Maps</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="map-vector.html">Vector Maps</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-f fa-folder"></i>Menu Level</a>
+                                <div id="submenu-10" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Level 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-11" aria-controls="submenu-11">Level 2</a>
+                                            <div id="submenu-11" class="collapse submenu" style="">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Level 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Level 2</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Level 3</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        
+		
+        <div class="dashboard-wrapper">
+		
+            <div class="container-fluid dashboard-content">
+               
+            </div>
+		<!-- New Joiner Forms             -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Policy Terms and Conditions   -->
+        <!-- ============================================================== -->	
+		
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-body">
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <h3 class="card-header">
+								<div class ="text-center"><b>The Coca.Cola Company</b></h3>
+                                </div>
+								<div class="card-body">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>                                                
+                                                <td>Doc Ref Number: IPP-16</td>
+                                                
+                                                <td>Topic: Accaptable Use</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Document Type: TCCC Compliance Policy</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><h3>Title: Acceptable Use Policy</h3></td>
+                                            </tr>
+											<tr>
+                                                <td>Effective Date: 3/31/2003</td>
+												<td>Amendment Date: 11/12/2010</td>
+                                            </tr>
+											<tr>
+                                                <td>POC for Changes: Strategic Security<td>
+                                            </tr>
+											<tr>
+                                                <td>Summary: Defines the appropriate use of Company information and System by Users</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<div class="card">
+									<div class="card-body">
+									<table class="table">
+									
+									<h3>16. ACCEPTABLE USE POLICY </h3>
+									<ul>
+									<h6>This Acceptable Use Policy defines the appropriate use of Company information and Systems by Users. It is a subset of the Information Protection Policies. This policy includes the information protection requirements common to all Users of Company information and Systems. The Company reserves the right to change the Information Protection Policy at any time.</h6>
+									</ul>
+									<h3>16.0 POLICY STATEMENT </h3>
+									<ul>
+									<h6> All Systems and any Company information or messages stored on them or created, sent, or received using them are the property of the Company. It is each User's responsibility and obligation to ensure that Systems are used properly. All Users must be trained on the Acceptable Use Policy at least every three years. A violation of this Acceptable Use Policy may result in disciplinary action up to and including termination of employment or termination of service contract. Violation of this policy may also be a violation of other Company policies or procedures, including, but not limited to the Company Code of Business Conduct.</h6>
+									</ul>
+									<h3>16.1. Business Use of Company Systems </h3>
+									
+									<h4>16.1.1. Personal use</h4>
+									<ol >
+									<h6><li>Systems are to be used to conduct Company business. Occasional personal use of Systems is permitted, however, as long as it does not: (1) impact the 
+									performance of activities related to the discharge of the User's responsibilities to the Company; (2) violate this Acceptable Use Policy or any other Company policies or procedures; and (3) violate any applicable laws. Such occasional personal use is subject to all terms of this Acceptable Use Policy, including monitoring.</li>
+									<li>Users shall only install applications or software on Company Systems that are authorized by Global Information Technology. </li></h6>
+									</ol>
+									
+									<h4>16.1.2. Acceptable use of electronic communication </h4>
+									<ol>
+									<h6><li>Users shall use Company electronic communication systems and services in accordance with Company policies and procedures. Electronic  
+									communication systems and services include, but are not limited to: Internet; electronic mail and mail services such as text messaging; electronic publishing services such as blogs, podcasts, and wikis; web forums such as bulletin boards, discussion groups, and news groups; peer-to-peer communications such as chat, instant messaging, web conferencing, and web-based file sharing. </li>
+									<li>Sharing of nonpublic Company information is allowable subject to the following conditions:</li>
+									<ul style="list-style-type:disc;">
+										<li>Users shall not use or disclose to others, without prior written consent of the Company, any nonpublic information related to the Company or the 
+										Company's business;</li>
+										<li>Users shall not solicit, collect, or disclose the personal information of any other Employee, Third Party, Bottler, customer, vendor, supplier, or shareholder. This information includes, but is not limited to: passwords, contact information, physical location, national identification numbers (e.g., social security numbers), credit card information, etc.</li>
+										<li>Authorized uses of personal information shall be limited in accordance with the Company Privacy Policy.</li>
+										</ul>
+									<li>Third Parties that will be exposed to Company classified information shall sign a non disclosure agreement. Users shall not disclose, share or transmit Company information classified Restricted or higher with Third Parties unless approved by the business owner. </li>
+									<li>Users shall only use peer-to-peer communications systems (such as instant messaging web-based file sharing, web conferencing) on the Company network that are authorized by Global Information Technology. </li>
+									</ol>
+									
+									<h4>16.1.3. Acceptable use of Internet </h4>
+									<ol>
+									<h6><li>Internet access originating from the Company must go through a Secure Access Zone (SAZ) or other related protection technology architecture approved by the information protection organization. Use of commercial Internet service providers to access the Internet from within the Company is prohibited.</li>
+									<li>Users shall transmit classified information in accordance with the Company Information Classification Standard and Protection Measures. </li>
+									<li>Users shall not load, download or install software from the Internet on Company Systems without the approval of Global Information Technology. </li>
+									<li>Subject to applicable law, Users shall not use Company Systems to access Internet websites where the content, process or service violates the Acceptable Use Policy. In instances where there is a justifiable business need to access Internet websites which contradict the Acceptable Use Policy, a temporary waiver may be considered in accordance with the compliance remediation process. Remediation requests shall have a documented business justification and are subject to approval by the following: </li>
+									<ul style="list-style-type:disc;">
+									<li>Business Owner, or designated Business Steward, of the affected System, business process or service</li>
+									<li>Vice President, or Director level equivalent of the requester</li>
+									<li>Information Security and Internal Controls Governance Committee or authorized designee</li></h6>
+									</ul>
+									</ol>
+									
+									<h4>16.1.4. Acceptable use of electronic mail</h4>
+									<ol>									
+									<h6><li>Users must prepare e-mails with the same degree of accuracy, care, and propriety that they would use in the creation of traditional written communications. Users shall be aware that statements made through electronic communications may be legally binding.</li>
+									<li>Users shall not use e-mail to perform the following activities: </li>
+									<ul style="list-style-type:disc;">
+									<li>Send or forward chain letters;</li>
+									<li>Send or forward security related messages not originating from the information protection organization (e.g, computer virus warnings) unless done in support of an investigation.</li>
+									</ul>
+									<li>Company business e-mail shall not be automatically forwarded to non-Company systems unless approved by the information protection organization. Non-Company systems include, but are not limited to: home or personal computers, public Internet terminals; file transfer servers; web-based storage, backup, and file sharing resources; collaboration platforms, etc. Company information shall be protected in accordance with the Information Classification Standard and Protection Measures.</li>
+									<li>E-mail messages containing Company information classified Restricted or higher shall be encrypted during transit across public communications networks. </li>
+									<li>If an e-mail message containing classified information is received in error, the receiver must notify the sender of the error and delete the message.</li>
+									<li>Users must immediately contact Company legal counsel upon receipt of a message that contains illegal or anti-competitive business-related information or information that violates Company policies or procedures. Legal counsel will assist Users in preparing an appropriate response so as to safeguard the Company from being accused of illegal or anti-competitive conduct.</li>						
+									<b><li>Requirement removed in accordance with CIB 2010 Nov09, "Global IT Technology Enhancements and Policy Changes" </li>
+									</b>
+									</h6>
+									</ol>
+									
+									<h4>16.1.5. Acceptable use of communications devices </h4>
+									<ol>
+									<h6><li>Users shall exercise caution when discussing classified information in a public setting.</li>
+									<li>Use of a mobile phone to disclose Highly Restricted information is prohibited. </li>
+									<li>The host of a conference call shall ensure that only authorized individuals are connected to the call via the use of distributed pass codes for entry to the conference call. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.1.6. Further use restrictions </h4>
+									<ol>
+									<h6><li>Users may not use any System</li>
+									<ul style="list-style-type:disc;">
+									<li>In a manner that would violate the Information Protection Policy or any other Company policy or procedure or any law or regulation; </li>
+									<li>In a manner that would reflect badly upon the Company, such as by pirating software, stealing copyright material, stealing passwords, hacking, participating in the viewing or exchange of pornography or other obscene materials, or engaging in any other unethical or wrongful conduct; </li>
+									<li>To load, download, or store games or non-Company related or other unauthorized executable files; </li>
+									<li>To download or store non-Company related files such as MP3, MPEG, AVI, JPG etc.; </li>
+									<li>To participate in non-Company related business activities;</li>
+									<li>To participate in non-Company related business activities;</li>
+									<li>For the purpose of solicitation, such as requesting contributions or soliciting memberships to non-Company approved charitable organizations or soliciting political candidates; </li>
+									<li>For attempted financial gain resulting from knowledge of classified information; </li>
+									<li>In a manner that would cause a reasonable person to be defamed offended, harassed, or disrupted, such as by uploading, downloading, or transmitting sexual comments or images, racial or ethnic slurs, or other comments or images that would offend someone on the basis of race, gender, national origin, sexual orientation, religion, political beliefs, or disability; </li>
+									<li>To enable unauthorized Third Parties to have access to or use any Systems or otherwise jeopardize the security of any Systems; </li>
+									<li>To publicly comment or speculate on Company performance, policies or actions; </li>
+									<li>To post classified information on any public Internet sites (such as chat rooms. discussion forums, and newsgroups) unless it is part of their assigned job function; or </li>
+									<li>In a manner that would significantly impact the performance, capacity, or integrity of any System.</li>
+									</ul>
+									<li>Unless the User is a member of the Company information protection organization or Corporate Audit Department, or is authorized by the information protection organization, a User's possession, development, or intentional use of malicious software, hacker tools or other security-related software is prohibited. </li>
+									<li>Only software authorized by Global Information Technology shall be installed on any System. Users shall not install software onto any System without the approval of Global Information Technology. </li>
+									<li>Users must not attempt to circumvent or otherwise alter the security of any System. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.1.7. Company's Right to Monitor Systems </h4>
+									<ol>
+									<h6><li>Subject to applicable law, the Company may monitor any System and any User's use of any System Any monitoring, such as interception of communications or monitoring of Internet usage, will take place only where required in the Company's legitimate interest. These interests include: </li>
+									<ul style="list-style-type:disc;">
+									<li>Ensuring effective and/or secure operation of any System; </li>
+									<li>Keeping records of transactions in which the Company is involved; </li>
+									<li>Ascertaining Employee compliance with applicable laws and Company policies or procedures; or </li>
+									<li>Detecting, preventing or investigating crime.</li>
+									</ul>
+									<li>Monitoring will be in accordance with applicable Company procedures and applicable legal requirements. Any data gathered as a result of monitoring activities will be processed in accordance with applicable law and may be disclosed outside the Company in support or as part of investigations or legal proceedings.</li>
+									<li>Except as protected by applicable law, communications on Systems are not private. Passwords and user IDs are designed to protect the Company's business information from unauthorized access, not to provide Users with personal privacy in any communications.</li>
+									</ol>
+									
+									<h3>16.2. User Responsibilities </h3>
+									<h4>16.2.1. Password use </h4>
+									<ol>
+									<h6><li>Users shall change their password from the initial System default upon the first use of their user ID. </li>
+									<li>Users shall create strong passwords that are a minimum of 8 characters in length and be comprised of letters, numbers, and special characters.</li>
+									<li>Passwords shall not be easily associated with the Company or the User (e.g, Social Security Number, employee number, address, numerical equivalent of name, family names, pet names). Passwords shall not contain words from a dictionary, movie, geographical location, mythology, Company products, customers, or application names Also, passwords shall not be based upon month/year combinations.</li>
+									<li>Users shall change passwords at least every 90 days. </li>
+									<li>Passwords shall not be saved using the AutoComplete feature, or password storage mechanism, in Web browsers and applications.</li>
+									<li>Upon receiving a new voicemail account, default access codes shall be changed immediately. </li>
+									<li>Voicemail passwords shall be a 4 character minimum. These passwords shall not be directly associated with the phone extension or the User. Passwords shall not be comprised of date of birth anniversaries, portions of Social Security Numbers, or sequential numbers.</li>
+									<li>Users shall create passwords for access to Highly Restricted Systems that are different from passwords used for Systems classified as Restricted or below.</li>
+									<li>Users shall create passwords for access to Company Systems that are different from passwords used for non-Company Systems (such as personal web banking applications. customer or supplier applications). </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.2. Unattended user equipment </h4>
+									<ol>
+									<h6><li>Users shall use Company Systems and devices in a physically secure location and protect them against unauthorized use. </li>
+									<li>Users shall secure their PCs, laptops, and workstations with a password-protected screensaver with the automatic activation feature set at a maximum of 15 minutes or less, and manually engaging the feature when the device will be unattended. </li>
+									<li>Users shall ensure that their laptops are physically secured using cable locks or other techniques when unattended. </li>
+									<li>Company information that is stored on laptops and is classified Restricted or higher as according to the Information Classification Standard and Protection Measures, must be encrypted using an encryption method approved by the information protection organization.</li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.3. Clear desk and clear screen policy </h4>
+									<ol>
+									<h6><li>Classified information must be protected according to the Company Information Classification Standard and Protection Measures and in accordance with applicable contractual agreements.</li>
+									<li>Authentication credentials, such as tokens or passwords, must not be stored in the open. </li>
+									<li>Classified information, when printed, shall be cleared from printers, copiers, and fax machines according to the Company Information Classification Standard and Protection Measures.</li>
+									<li>A user's session on a workstation or server console shall be configured with a password-protected screensaver. The screen-saver must require the entry of a password after a workstation or server console has been len idle for a maximum of 15 minutes. Workstations or server consoles that do not require user interactive sessions (e.g., display only terminals) may have the password-protected screensaver disabled by Global Information Technology, and shall be subject to approval by the information protection organization.</li>
+									<li>Users shall manually engage a password-protected screensaver when accessing Company Systems or information classified Confidential or higher when their PC, laptop or workstation will be unattended. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.4. User access management </h4>
+									<ol>
+									<h6><li>All access to Systems containing classified information shall be controlled by an authentication method involving a minimum of a unique user ID/password combination. </li>
+									<li>All activity performed under a user ID is the responsibility of individual to whom the ID is assigned. Users shall not share their user ID/password with others or allow other Employees to use their user ID/password. Users are not permitted to perform any actions under any user ID other than their own, or a group or shared user ID to which they have been granted access. The use of generic IDs (such as temp or guest), unless specifically assigned to an individual and documented, is not permitted. Group or shared IDs must have a designated owner, in writing, accountable for all actions performed under the group or shared ID.</li>
+									<li>User's access rights shall be reviewed every 90 days in order to maintain effective access control. User IDs that have not been accessed for 90 days shall be disabled, and shall be deleted at 13 months and in accordance with Company records retention guidelines Management shall notify Global IT immediately to disable User accounts upon Employee or Third Party separation or resignation.</li>
+									<li>Privileged access rights to Systems, including administrative access to laptops and workstations, is restricted to authorized personnel with a business need. Privileged access rights must be reviewed every 90 days.</li>
+									<li>All Users that have access to privileged access rights (such Administrator or Root) shall have their own personal user IDs for normal business use. Privileged Users must use their personal user IDs for conducting non-privileged activities. Wherever possible, privileged Users must login to a System using their personal user ID prior to invoking a privileged user ID. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.5. Information classification and handling </h4>
+									<ol>
+									<h6><li>All electronic and hard copy Company information shall be classified in accordance with Company information classification categories. Company information in any format (e.g hard copy or electronic) shall be protected by all Employees and Third Parties at the level commensurate with its value as determined by the assigned classification. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.6. Electronic storage of information </h4>
+									<ol>
+									<h6><li>Users shall encrypt files and removable media containing Company information classified Restricted or higher and in accordance with the Encryption Standard. Removable media includes, but is not limited to, laptops, hard drives, thumb drives, memory sticks, USB flash drives, portable media players, or any other electronic information storage device.</li>
+									<li>Users shall not store or exchange Company classified information on Third Party or non-Company systems unless a contractual agreement to protect the information exists. Non-Company systems include, but are not limited to: home or personal computers; public Internet terminals; file transfer servers; web-based storage, backup, and file sharing resources; collaboration platforms, etc. Company classified information shall be protected in accordance with the Company Information Classification Standard and Protection Measures. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.7. Disposal of information </h4>
+									<ol>
+									<h6><li>Users, before disposal, shall shred paper records containing personal information or Company information classified Restricted or higher. The shred size shall be small enough that there is reasonable assurance the information cannot be reconstructed. Other forms of disposal must be approved by the information business owner. Paper records shall be disposed in accordance with the Company's records retention guidelines. </li>
+									<li>Users shall delete the contents of storage devices containing personal information or Company information classified Restricted or higher before reuse or transfer out of their direct control (eg, transfer to another department, workstation refresh). Users shall ensure that the data contained on the storage device no longer exists and that the data cannot be recovered or reconstructed. The procedure for removing content shall be coordinated with Global Information Technology and in accordance with the Disk Erasure Standards</li>
+									<li>Users, before disposal, shall destroy disks, tapes, and other removable media containing personal information or containing Company information classified Restricted or higher Removable media includes, but is not limited to, paper documents, laptops, hard drives, thumb drives, memory sticks, USB flash drives, portable media players, or any other electronic information storage device.</li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.8. Data leakage control</h4>
+									<ol>
+									<h6><li>External storage media (floppy disks, CDs, CDR-Ws, zip disks, etc.) that have been out of the control of the User shall be scanned for malicious software before use. </li>
+									<li>If a virus is suspected on a System, the User shall disconnect the System from the Company network immediately, notify their local Helpdesk, and assist in the removal of the virus prior to any re-connection to other Systems. It is the responsibility of the User, with appropriate technical assistance, to ensure that the virus has been successfully removed before resuming communications on any Systems.</li>
+									<li>Users shall scan all files downloaded from the Internet or received via e-mail from outside the Company for viruses using the Company-approved antivirus software. Attachments contained in messages from unknown senders should not be opened.</li>
+									<li>All Systems must use current Company approved anti-virus software. Systems shall be scanned upon each boot-up, and the anti-virus software shall remain running throughout the computing session. The complete hard drive shall be scanned at least monthly. </li>
+									</h6>
+									</ol>
+									
+									<h4>16.2.9. Reporting security incidents </h4>
+									<ol>
+									<h6><li>Users shall report known or suspected information security incidents to the Computer Incident Response Team (KO-CIRT) via e-mail at ko-cirt@nako.com or +14045152478. </li>
+									<li>If a User suspects a security weakness, threat or System vulnerability, that individual shall notify the KO-CIRT immediately. Only individuals in an information security or audit role, or an authorized designee by the information protection organization shall test security weaknesses. The User is forbidden to test the security weakness without the permission, direction and involvement of the information protection organization. The User shall not publicize the discovered vulnerability or weakness. </li>
+									<li>Users shall report known or suspected violations of the information Protection Policy to the KO-CIRT.</li>
+									</h6>
+									</ol>
+									
+									<h3>16.3. Mobile Computing and Teleworking </h3>
+									<h4>16.3.1. Mobile computing and communications </h4>
+									<ol>
+									<h6><li>Users are responsible for the security and care of mobile computing asset, including, but not limited to laptops, Personal Digital Assistants (PDAs), and Blackberrys, issued to them by the Company. If the mobile computing asset is lost, stolen or destroyed and the individual responsible for that asset found negligent in its protection, they may be held financially responsible for cost incurred by the Company to replace the asset. Users shall immediately report the loss of Company information assets to their local security organization.</li>
+									<li>Users are not permitted to store Company-related information on personally owned systems or any other equipment not provided by the Company unless approved by the information protection organization and securely configured by Global Information Technology to protect Company classified information.</li>
+									<li>Direct access to the Internet (e.g., cable modem, digital subscriber lines or DSL) from a non-Company owned facility (eg, from home or while traveling) must either go through a Company-approved Secure Access Zone (SAZ) or be protected via anti-virus and access control technology such as personal firewalls.</li>
+									<li>Only wireless network connections and devices approved by the information protection organization may be used on Company networks. Unauthorized wireless access points shall not be used on the Company network.</li>
+									</h6>
+									</ol>
+									
+									<h4>16.3.2. Teleworking </h4>
+									<ol>
+									<h6><li>The information Protection Policy applies to all Systems and information regardless of location.</li>
+									<li>Users shall only use Company approved and securely configured Systems to access any Company System. Use of home PCs, personal laptops or other non-Company systems are prohibited unless approved by the information protection organization and securely configured by Global Information Technology to protect Company classified information. Non-Company systems include, but are not limited to: home or personal computers, public Internet terminals; file transfer servers; web-based storage, backup and file sharing resources collaboration platforms, etc. </li>
+									<li>Authorized Systems, classified information, and media taken outside Company premises, shall be controlled, secured, and protected to ensure protection against theft, destruction, or unauthorized disclosure and use according to the Information Classification Standard and Protection Measures. Removable media includes, but is not limited to, paper documents, laptops, hard drives, thumb drives, memory sticks, USB flash drives, portable media players, or any other electronic information storage device.</li>
+									<li>All remote access points into the Company's environment shall be protected by a Company-approved Secure Access Zone (SAZ) and approved by the information protection organization. The use of unauthorized modems or remote access solutions including wireless network access is not permitted.</li>
+									<li>All remote access Users shall be authenticated in a Secure Access Zone (SAZ) approved by the information protection organization prior to accessing any Company System, including web-based applications, located in the Company's internal network. Third parties must sign the Company's Network Access Agreement prior to accessing any Company System. </li>
+									<li>Prior to establishing direct remote connectivity to the Company's internal network, or prior to remotely accessing any Company System as a Privileged User, remote access Users shall be authenticated with two-factor authentication. Two-factor authentication is a combination of any of the following: 1) something you know (e password), 2) something you have (eg, token), 3) something you are (c.g., biometrics).</li>
+									<li>Remote control software is prohibited from installation on any Systems unless authorized by the information protection organization or Global Information Technology.</li>
+									</h6>
+									</ol>
+									
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                                                        <label class="form-check-label" for="invalidCheck">
+                                                           <b>I agree to comply with The Coca-Cola Company Acceptable Use Policy.</b>
+														   <br>(Click here to acknowledge this statement.) </br>
+                                                        </label>
+                                                        <div class="invalid-feedback">
+                                                           You must agree before submitting.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+											
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                                <button class="btn btn-primary" type="submit">Next</button>
+                                            </div>
+											
+									<div class ="text-center">Classified: Internal Use</div>
+									
+									<div class ="text-center">FINAL</div>	
+									
+									</table>
+									</div>
+									</div>
+								</div>
+                                </div>    
+                                </div>
+                            </div>
+                        </div>	
+					
+					
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">About</a>
+                                <a href="javascript: void(0);">Support</a>
+                                <a href="javascript: void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="../assets/libs/js/main-js.js"></script>
+</body>
+ 
+</html>

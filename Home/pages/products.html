@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+	<link rel="stylesheet" href="../assets/libs/css/11.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="../assets/libs/css/12.css">
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+</head>
+
+<style>	
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-auto-rows: 200px;
+  grid-auto-flow: row dense;
+  grid-gap: 23px;
+  justify-content: center;
+}
+.card-top, .card-right, .card-bottom, .card-left {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  border-radius: 95.2380952381px;
+  box-shadow: 0px 3px 9px 1px rgba(0, 10, 20, 0.2);
+}
+.card-top {
+  flex-direction: column;
+  grid-column: auto / span 1;
+  grid-row: auto / span 2;
+}
+.card-right {
+  flex-direction: row-reverse;
+  grid-column: auto / span 2;
+  grid-row: auto / span 1;
+}
+.card-bottom {
+  flex-direction: column-reverse;
+  grid-column: auto / span 1;
+  grid-row: auto / span 2;
+}
+.card-left {
+  flex-direction: row;
+  grid-column: auto / span 2;
+  grid-row: auto / span 1;
+}
+.card-image {
+  display: flex;
+}
+.card-top .card-image, .card-bottom .card-image {
+  height: 50%;
+  width: 100%;
+}
+.card-left .card-image, .card-right .card-image {
+  height: 100%;
+  width: 50%;
+}
+.card-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-top img {
+  border-radius: 95.2380952381px 95.2380952381px 0 0;
+}
+.card-right img {
+  border-radius: 0 95.2380952381px 95.2380952381px 0;
+}
+.card-bottom img {
+  border-radius: 0 0 95.2380952381px 95.2380952381px;
+}
+.card-left img {
+  border-radius: 95.2380952381px 0 0 95.2380952381px;
+}
+.card-text {
+  align-self: center;
+  padding: 23px;
+}
+.card-top .card-text {
+  height: auto;
+  width: auto;
+  padding-bottom: 36.8px;
+}
+.card-right .card-text {
+  height: auto;
+  width: 50%;
+  padding-left: 36.8px;
+}
+.card-bottom .card-text {
+  height: auto;
+  width: auto;
+  padding-top: 36.8px;
+}
+.card-left .card-text {
+  height: auto;
+  width: 50%;
+  padding-right: 36.8px;
+}
+.card-text p {
+  margin: 0;
+  line-height: 1.35em;
+  color: #334455;
+}
+@media (max-width: 500px) {
+  .card-top {
+    flex-direction: row;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+  }
+  .card-bottom {
+    flex-direction: row-reverse;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+  }
+  .card-top .card-image, .card-bottom .card-image {
+    height: 100%;
+    width: 50%;
+  }
+  .card-top img {
+    border-radius: 95.2380952381px 0 0 95.2380952381px;
+  }
+  .card-bottom img {
+    border-radius: 0 95.2380952381px 95.2380952381px 0;
+  }
+  .card-top .card-text {
+    height: auto;
+    width: 50%;
+    padding-right: 36.8px;
+  }
+  .card-bottom .card-text {
+    height: auto;
+    width: 50%;
+    padding-left: 36.8px;
+  }
+}
+@media (max-width: 400px) {
+  .card-image {
+    width: 38% !important;
+  }
+  .card-text {
+    width: 62% !important;
+  }
+}
+
+
+</style>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                <a class="navbar-brand" href="./home.html">Coca Cola</a>
+            
+				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+				
+				<div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                             <a class="navbar-brand1" href="./news.html">News</a>
+                        </li>
+						<li class="nav-item">
+                             <a class="navbar-brand1" href="./story.html">Our Stories</a>
+                        </li>
+						<li class="nav-item">
+                             <a class="navbar-brand1 active" href="./products.html">Our Products</a>
+                        </li>
+						<li class="nav-item">
+                             <a class="navbar-brand1" href="./job.html">Job Opportunities</a>
+                        </li>
+						<li class="nav-item">
+                             <a class="navbar-brand1" href="../index.html">Login</a>
+                        </li>
+					</ul>
+			</div>
+			</nav>
+        </div>
+
+	
+    <!-- ============================================================== -->
+    <!-- end navigation bar -->
+    <!-- ============================================================== -->
+    <!-- Main Content Video-->		
+	<!-- ============================================================== -->
+<div class="container-fluid dashboard-content">	
+  <div class="row">	
+<div class="container">
+  <div class="card-left">
+    <div class="card-image">
+      <img src="../assets/images/cola1.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Coca-Cola history began in 1886 when Dr. John S. Pemberton created a distinctive tasting soft drink now known as Coca-Cola. </p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/sprite.png">
+    </div>
+    <div class="card-text">
+      <p>Sprite is a lemon-lime flavored soft drink with a crisp, clean taste that gives you the ultimate cut-through refreshment.</p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/fanta.png" >
+    </div>
+    <div class="card-text">
+      <p>Bright, bubbly and popular, Fanta is the soft drink that intensifies fun. Fanta is the second oldest brand of The Coca-Cola Company.</p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+     <img src="../assets/images/dasani1.jpeg" >
+    </div>
+    <div class="card-text">
+      <p>DASANI is America's No. 1 national water brand. A proprietary blend of minerals to deliver a fresh, clean taste.</p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/smart.png" >
+    </div>
+    <div class="card-text">
+      <p>America's No.1 premium water brand provides vapor-distilled water inspired by the clouds with added electrolytes for taste.</p>
+    </div>
+  </div>
+  <div class="card-bottom">
+    <div class="card-image">
+       <img src="../assets/images/minute.jpg" >
+    </div>
+    <div class="card-text">
+      <p>With more than 100 different flavors and varieties, we use the freshest ingredients to ensure you get the highest quality juices.</p>
+    </div>
+  </div>
+  <div class="card-left">
+    <div class="card-image">
+      <img src="../assets/images/innocent.png" >
+    </div>
+    <div class="card-text">
+      <p>From smoothies, coconut water, juice and kids’ drinks, innocent has something for everyone. Stop feeling guilty, and start drinking innocent.</p>
+    </div>
+  </div>
+  <div class="card-bottom">
+    <div class="card-image">
+       <img src="../assets/images/simply.png" >
+    </div>
+    <div class="card-text">
+      <p>The Simply story starts with great-tasting fruit, and ends with refreshing and delicious Simply Juices, Smoothies, Juice Drinks and Light Beverages.</p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/georgia.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Georgia Coffee, Japan's leading coffee brand, has been offering quality, canned coffee since 1975.</p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+     <img src="../assets/images/costa.png" >
+    </div>
+    <div class="card-text">
+      <p>The Costa Coffee story started over 45 years ago with two brothers and just one dream.</p>
+    </div>
+  </div>
+  <div class="card-left">
+    <div class="card-image">
+       <img src="../assets/images/fuzetea.png" >
+    </div>
+    <div class="card-text">
+      <p>Fuze Tea offers a delicious blend of juice and tea extracts for a unique flavour experience.</p>
+    </div>
+  </div>
+  <div class="card-left">
+    <div class="card-image">
+       <img src="../assets/images/honest.png" >
+    </div>
+    <div class="card-text">
+      <p>Honest seeks to create a variety of delicious, lower or no sugar organic beverages made with Fair Trade ingredients whenever possible. </p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+       <img src="../assets/images/fairlife.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Over 20 years ago, we had an ambition to provide the world with better nutrition while making it a better place.</p>
+    </div>
+  </div>
+  <div class="card-bottom">
+    <div class="card-image">
+       <img src="../assets/images/powerade.png" >
+    </div>
+    <div class="card-text">
+      <p>Powerade is an electrolyte drink that fuels your hard work so you can #powerthrough and perform at your best.</p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+       <img src="../assets/images/ciel.png" >
+    </div>
+    <div class="card-text">
+      <p>Your brain dehydrates before you even notice. Keep Hydrated. Ciel connects mind and body.</p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/schweppes.png" >
+    </div>
+    <div class="card-text">
+      <p>For over 230 years, Schweppes has been committed to quality and excellence. </p>
+    </div>
+  </div>
+   <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/vitamin.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Stay hydrated while you enhance your water drinking experience with the vitamins and electrolytes in the many flavors of vitaminwater®.</p>
+    </div>
+  </div>
+   <div class="card-bottom">
+    <div class="card-image">
+      <img src="../assets/images/goldpeak.png" >
+    </div>
+    <div class="card-text">
+      <p>Gold Peak provides home-brewed taste in every sip, no matter how far from home you are.</p>
+    </div>
+  </div>
+   <div class="card-left">
+    <div class="card-image">
+      <img src="../assets/images/zico.png" >
+    </div>
+    <div class="card-text">
+      <p>Help your self and achieve the balance you need throughout the day with Zico Coconut Water.</p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/appletiser.jfif" >
+    </div>
+    <div class="card-text">
+      <p>Appletiser is a non-alcoholic sparkling juice that contains no added sugar or preservatives. </p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/topo.png" >
+    </div>
+    <div class="card-text">
+      <p>Topo Chico had always been known for the legend surrounding its origins. </p>
+    </div>
+  </div>
+  <div class="card-bottom">
+    <div class="card-image">
+      <img src="../assets/images/acquaries.jpg" >
+    </div>
+    <div class="card-text">
+      <p>The great-tasting, functional water drink that couples simple hydration with essential mineral intake to refresh your body and mind.</p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/ades.png" >
+    </div>
+    <div class="card-text">
+      <p>AdeS is the leading soy-based beverage brand in Latin America. Its name derives from the Spanish acronym "Alimentos de Semillas" (food from seeds).</p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/fresa.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Fresca recently unveiled a new look while keeping that same taste that people love. </p>
+    </div>
+  </div>
+  <div class="card-left">
+    <div class="card-image">
+      <img src="../assets/images/ilohas.jpg" >
+    </div>
+    <div class="card-text">
+      <p>I LOHAS, created in and for Japan, is an innovative twist on a classic source of hydration. </p>
+    </div>
+  </div>
+  <div class="card-right">
+    <div class="card-image">
+      <img src="../assets/images/ayataka.png" >
+    </div>
+    <div class="card-text">
+      <p>Ayataka is an authentic, premium tea that delivers a cloudy hue and a well-rounded flavor that lingers on the tongue.</p>
+    </div>
+  </div>
+  <div class="card-bottom">
+    <div class="card-image">
+      <img src="../assets/images/barqs.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Since 1898 Barq's Root Beer has had a simple slogan- DRINK BARQ'S. IT'S GOOD™. </p>
+    </div>
+  </div>
+  <div class="card-top">
+    <div class="card-image">
+      <img src="../assets/images/peacetea.png" >
+    </div>
+    <div class="card-text">
+      <p>Choose fun. Choose kindness. Choose joy. Choose good vibes. Choose Peace.</p>
+    </div>
+  </div>
+  <div class="card-left">
+    <div class="card-image">
+      <img src="../assets/images/dogadan.jpg" >
+    </div>
+    <div class="card-text">
+      <p>Providing quality, healthy and innovative tea products since 1975.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>	
+	<!-- ============================================================== -->
+    <!-- end Main Content Video -->
+    <!-- ============================================================== -->
+    <!-- News Slide-->		
+	<!-- ============================================================== -->
+		
+
+
+	<!-- ============================================================== -->
+    <!-- end News Slide -->
+    <!-- ============================================================== -->
+    <!-- Timeline-->		
+	<!-- ============================================================== --> 
+
+
+
+	
+	<!-- ============================================================== -->
+    <!-- end Timeline -->
+    <!-- ============================================================== -->
+    <!-- Products-->		
+	<!-- ============================================================== -->	 
+
+
+	<!-- ============================================================== -->
+    <!-- end Products     -->
+    <!-- ============================================================== -->
+    <!-- Job Opportunities-->		
+	<!-- ============================================================== -->				
+
+
+	<!-- ============================================================== -->
+    <!-- end Job Opportunities -->
+    <!-- ============================================================== -->
+    <!-- Footer-->		
+	<!-- ============================================================== -->
+		
+		<div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            Copyright © 2020 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Coca Cola Malaysia</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="https://www.facebook.com/pages/category/Product-Service/Coca-Cola-Malaysia-1834267246882241/;"><img src="../assets/images/facebook.png"></a>
+                                <a href="javascript: void(0);"><img src="../assets/images/ig.png"></a>
+                                <a href="javascript: void(0);"><img src="../assets/images/youtube.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		
+	</div>
+	
+	<!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src='../assets/libs/js/main-js.js'></script>
+    <script src="../assets/vendor/timeline/js/main.js"></script>
+	<script src="../assets/libs/js/main.js"> </script>
+	<script src="../assets/libs/js/book.js"></script>
+
+
+</body>
+
+</html>
+
